@@ -1,0 +1,90 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  color: #333333;
+}
+
+h1 {
+  color: #2f80ed;
+  margin-bottom: 0.75em;
+}
+
+h2 {
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  color: #2f80ed;
+  font-size: 1.25em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #2f80ed;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__type {
+  min-width: 90px;
+}
+
+.text {
+  margin-bottom: 1em;
+}
+
+.skills {
+  margin-bottom: 1em;
+}
+
+.code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cv {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.image {
+  width: 125px;
+  height: 125px;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+
+.information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=main.css.map */
